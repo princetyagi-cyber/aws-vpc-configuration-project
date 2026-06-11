@@ -12,7 +12,7 @@ Create and configure a custom Virtual Private Cloud (VPC) in AWS.
 - Subnet
 - Internet Gateway
 - Route Table
-- Security Group
+- Ec2 instance
 
 ---
 
