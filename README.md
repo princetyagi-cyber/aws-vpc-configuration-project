@@ -48,17 +48,17 @@ Add route to Internet Gateway.
 
 ---
 
-## Step 5 - Configure Security Group
+## Step 5 - Create EC2 Instance
 
-Create Security Group and allow required traffic.
+Launch an EC2 instance inside the configured VPC.
 
-![SG](screenshots/security-group.png)
+![EC2](screenshots/ec2-instance.png)
 
 ---
 
 ## Step 6 - Verify VPC Configuration
 
-Verify VPC resources are connected properly.
+Verify that the EC2 instance is running inside the custom VPC and subnet.
 
 ![Output](screenshots/vpc-output.png)
 
@@ -66,4 +66,4 @@ Verify VPC resources are connected properly.
 
 # Final Result
 
-Successfully created and configured a custom AWS VPC with public subnet and internet access.
+Successfully created and configured a custom AWS VPC with public subnet, Internet Gateway, Route Table and EC2 instance.
